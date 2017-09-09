@@ -18,7 +18,7 @@ services:
     build: ./project/nginx/
     restart: always
     ports:
-      - 80:80
+      - 81:80
     depends_on:
       users-service:
         condition: service_started
